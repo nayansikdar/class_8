@@ -20,6 +20,7 @@ body{
 /* navbar */
 .navbar{
 background-color: #f0fff0 !important;
+    padding-top: 20px;
 }
 .navbar-brand img{
     width: 198.07px;
@@ -56,7 +57,7 @@ margin-left: -45px;
 }
 
 .sec2{
-    height: 85vh;
+    height: 83vh;
     background-color: hsl(120, 100%, 97%) !important;
     padding: 50px 0px;
 }
