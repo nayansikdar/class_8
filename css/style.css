@@ -1,0 +1,143 @@
+/* linking font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* global css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;  
+}
+.container{
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+
+/* navbar */
+.navbar{
+background-color: #f0fff0 !important;
+}
+.navbar-brand img{
+    width: 198.07px;
+    height: 59px;
+}
+
+.nav-item{
+margin-top: 10px;
+margin-right: 15px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: black;
+
+}
+
+.navbar-nav .btn button{
+    font-family: "Roboto", sans-serif;
+    color: white;
+padding: 12px 28px 12px 28px;
+border-radius: 33px;
+background-color:#21B573;
+border: 1px solid #21B573;
+
+}
+
+/* section 2 */
+
+.left-sec2 img{
+    width: 550px;
+height: 346px;
+margin-left: -45px;
+  margin-top: -85px;
+}
+
+.sec2{
+    height: 85vh;
+    background-color: hsl(120, 100%, 97%) !important;
+    padding: 50px 0px;
+}
+.sec2 span{
+    color: #FD511A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.sec2 h4{
+    margin-top: 20px;
+width: 405px;
+font-size: 48px;
+font-weight: 700;
+line-height: 70px;
+}
+
+.sec2 h4 span{
+    color: #21B573;
+font-size: 48px;
+font-weight: 700;
+line-height: 70px;
+}
+
+.sec2 p{
+    margin: 20px 0px;
+   width: 400px;
+font-size: 16px;
+font-weight: 400;
+line-height: 36px;
+color:#6C6B6B;
+}
+
+.sec2 button{
+    font-family: "Roboto", sans-serif;
+    color: white;
+padding: 12px 28px 12px 28px;
+border-radius: 33px;
+background-color:#21B573;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px 0px #00000040;
+margin-top: 10px;
+
+}
+
+/* section 3 */
+
+.sec3 img{
+    width: 66px;
+height: 85px;
+
+}
+.sec3 h4{
+ 
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+color: #413960;
+
+}
+.sec3 p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #585859;
+
+}
+
+.feature{
+    width: 270px;
+height: 270px;
+border-radius: 10px;
+background-color: white;
+text-align: center;
+padding: 50px 0px;
+margin: 50px 10px;
+}
+.feature:hover{
+    box-shadow: 0px 20px 40px 0px #0000001A;
+}
+
+.sec3-container{
+    margin-left: 65px;
+}
